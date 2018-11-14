@@ -220,7 +220,7 @@ open class PopTip: UIView {
   fileprivate var maxWidth = CGFloat(0)
   fileprivate var customView: UIView?
   fileprivate var isApplicationInBackground: Bool?
-  fileprivate var label: UILabel = {
+  public var label: UILabel = {
     let label = UILabel()
     label.numberOfLines = 0
     return label
